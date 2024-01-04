@@ -1,169 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bootstrap-eko ariketa</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous" />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap-eko ariketa</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-</head>
-
-<body>
-    <!-- BARRA DE NAVEGACION -->
-    <ul class="nav nav-pills">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Euskera</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Castellano</a>
-        </li>
-        <li class="nav-item dropdown ms-auto">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                aria-expanded="false">Ciclos</a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-        </li>
-    </ul>
-
-
-    <!-- SECCION DE CARDS CON THUMBNAILS -->
-    <!-- <div class="container">
-        <h3>Sección de cards con thumbnails</h3>
-        <div class="row">
-            DAW
-            <div class="col-sm-4 mb-3 mb-sm-0">
-                <div class="card">
-                    <img src="img/daw.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">DAW</h5>
-                        <p class="card-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit
-                            non
-                            mi porta
-                            gravida at eget metus. Nullam id dilor id nibh ultricies vehicula ut id elit.</p>
-                        <a href="#" class="btn btn-primary">Matricúlate</a>
-                        <a href="#" class="btn btn-link">Ver más</a>
-                    </div>
-                </div>
-            </div>
-
-            DAM
-            <div class="col-sm-4">
-                <div class="card">
-                    <img src="img/dam.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">DAM</h5>
-                        <p class="card-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit
-                            non
-                            mi porta
-                            gravida at eget metus. Nullam id dilor id nibh ultricies vehicula ut id elit.</p>
-                        <a href="#" class="btn btn-primary">Matricúlate</a>
-                        <a href="#" class="btn btn-link">Ver más</a>
-                    </div>
-                </div>
-            </div>
-
-            ASIR
-            <div class="col-sm-4">
-                <div class="card">
-                    <img src="img/dam.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">ASIR</h5>
-                        <p class="card-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit
-                            non
-                            mi porta
-                            gravida at eget metus. Nullam id dilor id nibh ultricies vehicula ut id elit.</p>
-                        <a href="#" class="btn btn-primary">Matricúlate</a>
-                        <a href="#" class="btn btn-link">Ver más</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-4 mb-3 mb-sm-0">
-                <ul class="list-group">
-                    <li class="list-group-item"></li>
-                    <li class="list-group-item"></li>
-                    <li class="list-group-item"></li>
-                </ul>
-            </div>
-
-            
-        </div>
-    </div> -->
-
-
-    <div class="container">
-        <div class="row">
-            <h3>Sección de cards con thumbnails</h3>
-            <!-- Cards -->
-            <div class="col-sm-8 mb-4 d-flex">
-                <!-- DAW -->
-                <div class="card me-4">
-                    <img src="img/daw.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">DAW</h5>
-                        <p class="card-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit
-                            non mi porta gravida at eget metus. Nullam id dilor id nibh ultricies vehicula ut id elit.
-                        </p>
-                        <a href="#" class="btn btn-primary">Matricúlate</a>
-                        <a href="#" class="btn btn-link">Ver más</a>
-                    </div>
-                </div>
-
-                <!-- DAM -->
-                <div class="card me-4">
-                    <img src="img/dam.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">DAM</h5>
-                        <p class="card-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit
-                            non mi porta gravida at eget metus. Nullam id dilor id nibh ultricies vehicula ut id elit.
-                        </p>
-                        <a href="#" class="btn btn-primary">Matricúlate</a>
-                        <a href="#" class="btn btn-link">Ver más</a>
-                    </div>
-                </div>
-
-                <!-- ASIR -->
-                <div class="card me-4">
-                    <img src="img/asir.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">ASIR</h5>
-                        <p class="card-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit
-                            non mi porta gravida at eget metus. Nullam id dilor id nibh ultricies vehicula ut id elit.
-                        </p>
-                        <a href="#" class="btn btn-primary">Matricúlate</a>
-                        <a href="#" class="btn btn-link">Ver más</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- LIST-GROUP -->
-            <!-- FIXME: corregir que los h3 esten a la misma altura -->
-            <div class="col-sm-4 mb-4">
-                <h3>Esto es un list group</h3>
-                <ul class="list-group">
-                    <li class="list-group-item active">Home</li>
-                    <li class="list-group-item">List header</li>
-                    <li class="list-group-item h5">List group item heading</li>
-                    <li class="list-group-item">Help</li>
-                    <li class="list-group-item d-flex justify-content-between align-items-start active">Home
-                        <span class="badge bg-primary rounded-pill">14</span>
+    <body>
+        <!-- BARRA DE NAVEGACION -->
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Euskera</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Castellano</a>
+            </li>
+            <li class="nav-item dropdown ms-auto">
+                <a
+                    class="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    href="#"
+                    role="button"
+                    aria-expanded="false"
+                    >Ciclos</a
+                >
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#"
+                            >Something else here</a
+                        >
                     </li>
                 </ul>
+            </li>
+        </ul>
+
+        <div class="container">
+            <div class="row">
+                <h3>Sección de cards con thumbnails</h3>
+                <!-- Cards -->
+                <div class="col-sm-8 mb-4 d-flex">
+                    <!-- DAW -->
+                    <div class="card me-4">
+                        <img src="img/daw.png" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">DAW</h5>
+                            <p class="card-text">
+                                Cras justo odio, dapibus ac facilisis in,
+                                egestas eget quam. Donec id elit non mi porta
+                                gravida at eget metus. Nullam id dilor id nibh
+                                ultricies vehicula ut id elit.
+                            </p>
+                            <a href="#" class="btn btn-primary">Matricúlate</a>
+                            <a href="#" class="btn btn-link">Ver más</a>
+                        </div>
+                    </div>
+
+                    <!-- DAM -->
+                    <div class="card me-4">
+                        <img src="img/dam.png" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">DAM</h5>
+                            <p class="card-text">
+                                Cras justo odio, dapibus ac facilisis in,
+                                egestas eget quam. Donec id elit non mi porta
+                                gravida at eget metus. Nullam id dilor id nibh
+                                ultricies vehicula ut id elit.
+                            </p>
+                            <a href="#" class="btn btn-primary">Matricúlate</a>
+                            <a href="#" class="btn btn-link">Ver más</a>
+                        </div>
+                    </div>
+
+                    <!-- ASIR -->
+                    <div class="card me-4">
+                        <img
+                            src="img/asir.png"
+                            class="card-img-top"
+                            alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">ASIR</h5>
+                            <p class="card-text">
+                                Cras justo odio, dapibus ac facilisis in,
+                                egestas eget quam. Donec id elit non mi porta
+                                gravida at eget metus. Nullam id dilor id nibh
+                                ultricies vehicula ut id elit.
+                            </p>
+                            <a href="#" class="btn btn-primary">Matricúlate</a>
+                            <a href="#" class="btn btn-link">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LIST-GROUP -->
+                <!-- FIXME: corregir que los h3 esten a la misma altura -->
+                <div class="col-sm-4 mb-4">
+                    <h3>Esto es un list group</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item active">Home</li>
+                        <li class="list-group-item">List header</li>
+                        <li class="list-group-item h5">
+                            List group item heading
+                        </li>
+                        <li class="list-group-item">Help</li>
+                        <li
+                            class="list-group-item d-flex justify-content-between align-items-start active">
+                            Home
+                            <span class="badge bg-primary rounded-pill"
+                                >14</span
+                            >
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
 
+        <div class="container">
+            <div class="row">
+                <div class="card col-sm-4 mb-4">
+                    <div class="card-header h5">Esto es una card</div>
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Mollitia perspiciatis enim dicta sunt. Vitae nemo
+                        laudantium id maxime, et beatae harum atque minima
+                        fugiat saepe iste deserunt numquam dolores rerum.
+                    </div>
+                    <div class="card-footer">Footer de la card</div>
+                </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-</body>
+                <!-- JUMBOTRON -->
+                <div class="jumbotron col-sm-4 d-flex align-items-center">
+                    <div>
+                        <h4>Jumbotron</h4>
+                        <p>
+                            Esto es un Jumbotron que hemos incluido en la
+                            columna central.
+                        </p>
+                        <a class="btn btn-primary" href="#" role="button"
+                            >Learn more</a
+                        >
+                    </div>
+                </div>
 
+                <!-- COLLAPSIBLE -->
+                <p class="col-sm-4 d-inline-flex gap-1">
+                    <button
+                        class="btn btn-primary"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseExample"
+                        aria-expanded="false"
+                        aria-controls="collapseExample">
+                        Button with data-bs-target
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        Some placeholder content for the collapse component.
+                        This panel is hidden by default but revealed when the
+                        user activates the relevant trigger.
+                    </div>
+                </div>
+
+                <p>
+                    <button
+                        class="btn btn-primary"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseWidthExample"
+                        aria-expanded="false"
+                        aria-controls="collapseWidthExample">
+                        Toggle width collapse
+                    </button>
+                </p>
+                <div style="min-height: 120px">
+                    <div
+                        class="collapse collapse-horizontal"
+                        id="collapseWidthExample">
+                        <div class="card card-body" style="width: 300px">
+                            This is some placeholder content for a horizontal
+                            collapse. It's hidden by default and shown when
+                            triggered.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    </body>
 </html>
