@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header.row, footer.row{
+    background-color: #c0c0c0;
+}
+.tituloa{
+    padding-top: 3em;
+}
+.parrafoa{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+    color: blue;
+}
+ul.list-elements{
+    margin: 5em auto;
+    list-style: none;
+
+ }
+ .picture{
+    padding: 0.3em;
+ }
