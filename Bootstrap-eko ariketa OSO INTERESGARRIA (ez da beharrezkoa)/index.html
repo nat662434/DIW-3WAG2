@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-eko ariketa</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <!-- Imagen en la izquierda -->
+            <a class="navbar-brand order-lg-1" href="#">
+                <img src="img/Txurdi_logo1.png" alt="Bootstrap">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end order-lg-2 ms-auto" id="navbarSupportedContent">
+                <div class="pe-5">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <span class="navbar-text text-white pe-5">
+                    +9999 9999
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/oficina1r.jpg" class="d-block w-100" alt="oficina1r">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Título Uno</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique consequuntur dicta,
+                                quis aperiam cum, dolorum repudiandae commodi corrupti dolor et maxime, voluptate
+                                suscipit pariatur blanditiis corporis magnam autem esse? Id.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/oficina2r.jpg" class="d-block w-100" alt="oficina2r">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Título Dos</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, harum natus nam quae
+                                dolorum quibusdam! Nihil illum ipsum reiciendis provident ex vel accusamus, molestiae
+                                voluptatum maxime voluptatem unde quia odio.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/oficina3r.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Título Tres</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda consequatur mollitia
+                                ea voluptatum eveniet aperiam reiciendis recusandae id voluptates necessitatibus omnis
+                                officiis dolores laboriosam obcaecati itaque, veniam, voluptas aspernatur fugit.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/oficina4r.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <h1 class="display-4 text-center pt-5">Lorem, ipsum dolor.</h1>
+        <p class="blockquote text-info text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum,
+            veniam
+            iusto tenetur consequatur voluptas tempora quas totam magnam dicta alias quisquam, fugit voluptatum
+            consectetur dolores optio cumque a molestias recusandae!
+        </p>
+
+        <div class="row pt-3 gap-5 container pe-0">
+            <div class="card p-0 col-sm ">
+                <img src="img/oficina1r.jpg" class="card-img-top" alt="oficina1r">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.
+                    </p>
+                    <a href="#" class="btn btn-info text-white">Más información</a>
+                </div>
+            </div>
+            <div class="card p-0 col-sm">
+                <img src="img/oficina2r.jpg" class="card-img-top" alt="oficina2r">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-info text-white">Más información</a>
+                </div>
+            </div>
+            <div class="card p-0 col-sm">
+                <img src="img/oficina3r.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-info text-white">Más información</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row p-3 mt-3">
+            <div class="jumbotron bg-secondary-subtle ps-4 pb-5 rounded-2">
+                <h1 class="display-4 pt-5">Hello, world!</h1>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
+                    attention to featured content or information.</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.
+                </p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </div>
+        </div>
+
+
+        <p class="display-4 text-center pt-3">Lorem, ipsum dolor.</p>
+        <p class="blockquote text-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quas facilis,
+            ex in asperiores id! Vitae corporis fugit, cumque aspernatur quaerat dolor esse incidunt eius
+            necessitatibus magni beatae nihil nam?</p>
+
+        <div class="row pt-2 d-flex">
+            <div class="accordion col-sm-12 col-md-6" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button bg-info text-white" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Collapsible Group Item #1
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Anim pariatur cliche reprehenderit, emin eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffe nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer
+                            labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aethetic synth nesciunt you
+                            probably haven´t heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed bg-info text-white" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            Collapsible Group Item #2
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed bg-info text-white" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                            aria-controls="collapseThree">
+                            Collapsible Group Item #3
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <div class="card col-sm-12 col-md-6 p-0" style="max-height: 350px;"> -->
+            <div class="card col-sm-12 col-md-6 p-0">
+                <img src="img/oficina4r.jpg" class="card-img-top" alt="oficina4r">
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-info text-white">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+
+            </div>
+        </div>
+
+        <footer>
+            <p class="modal-footer mt-5 mb-0 p-3 pb-5 text-bg-secondary text-white text-center"
+                style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis illo
+                natus labore maiores temporibus pariatur? Dolor obcaecati, dolorem mollitia fugiat eveniet quo quisquam
+                sapiente a ratione libero impedit magni itaque.</p>
+        </footer>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
